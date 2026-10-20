@@ -1,0 +1,21 @@
+module Base
+{
+    xuiSkin default
+    {
+        entity ES_WinkDrillPress
+        {
+            LuaWindowClass = ISEntityWindow,
+            DisplayName = Standing Drill Press,
+            Icon = Item_Clamp_Forged,
+            components
+            {
+                CraftBench
+                {
+                    LuaPanelClass = ISCraftBenchPanel,
+                    DisplayName = Standing Drill Press,
+                    Icon = Item_Clamp_Forged,
+                }
+            }
+        }
+    }
+}

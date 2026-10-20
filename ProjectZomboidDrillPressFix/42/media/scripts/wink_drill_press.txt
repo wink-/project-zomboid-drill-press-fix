@@ -1,0 +1,16 @@
+module Base
+{
+    entity WinkDrillPress
+    {
+        component UiConfig
+        {
+            xuiSkin = default,
+            entityStyle = ES_WinkDrillPress,
+            uiEnabled = true,
+        }
+        component CraftBench
+        {
+            Recipes = StandingDrillPress,
+        }
+    }
+}

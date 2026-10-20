@@ -1,0 +1,8 @@
+name=Drill Press Fix B42
+id=WinkDrillPressFixB42
+author=wink-
+description=Repairs pickup, placement, rotation and native crafting recognition for the standing drill press. Tested offline against Build 42.21. See README for requirements and runtime test steps.
+version=0.1.0
+versionMin=42.21
+versionMax=42.21
+url=https://github.com/wink-/project-zomboid-drill-press-fix
